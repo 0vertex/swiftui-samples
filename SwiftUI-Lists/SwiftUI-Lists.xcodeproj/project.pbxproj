@@ -17,6 +17,8 @@
 		138291022710B53E007D0343 /* VerticalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138291012710B53E007D0343 /* VerticalListView.swift */; };
 		138291042710B9DB007D0343 /* VerticalListView_Preview in Resources */ = {isa = PBXBuildFile; fileRef = 138291032710B9DB007D0343 /* VerticalListView_Preview */; };
 		138291082710BA2F007D0343 /* HorizontalListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138291072710BA2F007D0343 /* HorizontalListView.swift */; };
+		138291352710CA07007D0343 /* HUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138291342710CA07007D0343 /* HUserView.swift */; };
+		138291372710CA76007D0343 /* VUserView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 138291362710CA76007D0343 /* VUserView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		138291012710B53E007D0343 /* VerticalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerticalListView.swift; sourceTree = "<group>"; };
 		138291032710B9DB007D0343 /* VerticalListView_Preview */ = {isa = PBXFileReference; lastKnownFileType = file; path = VerticalListView_Preview; sourceTree = "<group>"; };
 		138291072710BA2F007D0343 /* HorizontalListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalListView.swift; sourceTree = "<group>"; };
+		138291342710CA07007D0343 /* HUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HUserView.swift; sourceTree = "<group>"; };
+		138291362710CA76007D0343 /* VUserView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VUserView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,6 +125,7 @@
 			children = (
 				138291012710B53E007D0343 /* VerticalListView.swift */,
 				138291032710B9DB007D0343 /* VerticalListView_Preview */,
+				138291362710CA76007D0343 /* VUserView.swift */,
 			);
 			path = VerticalList;
 			sourceTree = "<group>";
@@ -129,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				138291072710BA2F007D0343 /* HorizontalListView.swift */,
+				138291342710CA07007D0343 /* HUserView.swift */,
 			);
 			path = HorizontalList;
 			sourceTree = "<group>";
@@ -204,10 +210,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				138291372710CA76007D0343 /* VUserView.swift in Sources */,
 				138290F62710B1A5007D0343 /* AppDelegate.swift in Sources */,
 				138290EA2710B10C007D0343 /* ContentView.swift in Sources */,
 				138291022710B53E007D0343 /* VerticalListView.swift in Sources */,
 				138290FC2710B2A1007D0343 /* UsersListSampleData.swift in Sources */,
+				138291352710CA07007D0343 /* HUserView.swift in Sources */,
 				138291002710B2D4007D0343 /* User.swift in Sources */,
 				138290F82710B1D0007D0343 /* SceneDelegate.swift in Sources */,
 				138291082710BA2F007D0343 /* HorizontalListView.swift in Sources */,
